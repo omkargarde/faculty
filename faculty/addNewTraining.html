@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <span class="border"></span>
+    <center><h1>Enter Training Details </h1>
+        <form class="" action="addNewTraining.php" method="post">
+          <div class="form-group">
+              <label for="trainingId"></label>
+              Training Id:<input type="text" id="trainingId" class="form-control" name="trainingId" value="" required></input>
+          </div>
+          <div class="form-group">
+            <label for="projectName"></label>
+            Training Work<input type="text" class="form-control" name="trainingWork" id="trainingWork" required></input>
+          </div>
+          <div class="form-group">
+            <label for="projectAgency"></label>
+            Funding Agency<input type="text"class="form-control" name="trainingFundingAgency" value=""required></input>
+          </div>
+          <div class="form-group">
+            <label for="trainingAmount"></label>
+        Amount<input type="number"class="form-control" name="trainingAmount" value=""required></input>
+          </div>
+          <div class="form-group">
+            <label for="trainingTopic"></label>
+        Topic<input type="text"class="form-control" name="trainingTopic" value=""required></input>
+          </div>
+      <button type="submit" class="btn btn-primary" name="projectAdd">ADD DETAILS</button>
+      </form>
+    </body>
+</html>
